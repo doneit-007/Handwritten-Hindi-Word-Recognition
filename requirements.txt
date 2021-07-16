@@ -1,0 +1,6 @@
+Keras==2.4.3
+numpy==1.19.5
+scipy==1.6.0
+tensorflow==2.4.1
+imutils==0.5.4
+opencv_python==4.5.1.48
