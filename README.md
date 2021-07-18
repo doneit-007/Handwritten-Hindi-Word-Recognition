@@ -195,11 +195,34 @@ Appended charcaters for the above example-:<br/>
 
 ## Task4- Building Image Classifier using CNN Model
 Now as said earlier we will be having a trained model which will take character image as input and predcit the corrosponding mapping to that character.
-This model is based on Convolution Neural Network whhich we trained on the [dataset](https://archive.ics.uci.edu/ml/machine-learning-databases/00389/DevanagariHandwrittenCharacterDataset.zip).<br/>
+This model is based on Convolution Neural Network which we trained on this [dataset](https://archive.ics.uci.edu/ml/machine-learning-databases/00389/DevanagariHandwrittenCharacterDataset.zip).<br/>
 We removed some of characters from the data which are similar to each other and the model is mispredicting them.<br/>
-The allowed characters are mentioned [here]()
+The allowed characters are mentioned [here](https://github.com/doneit-007/Hnadwritten-Hindi-Word-Recognition/blob/main/character.txt)
 <br/>
-   ### Model Architecure
+Model Architecure and training can be found here  [colab file](https://colab.research.google.com/drive/1j0BMhif01VdqMjqI3SZxK95h5l8bu3zl?usp=sharing)
+<br/>
+Loss Curve <br/>
+![image](https://user-images.githubusercontent.com/60650532/126060466-0b87f6cc-46a7-419a-9e7b-ed7f2f179dae.png)
+<br/>
+Then we saved the model <br/>
+## Task5 - Prediction and mapping them to Hindi Letters
+Now we predict label for each character and output the Hindi letter mapped to those labels <br/>
+``` python
+mapping ={0:u'ठ',1:u'ड',2:u'त',3:u'थ',4:u'द',5:u'क',6:u'न',7:u'प',8:u'फ'
+9:u'म',10:u'य',11:u'र',12:u'व',13:u'स',14:u'क्ष',15:u'त्र',16:u'ज्ञ',17:u'घ',18:u'च',19:u'छ',20:u'ज'}
+for char in character:
+		pred=mosaic.predictchar(char, model)
+		ls.append(mapping[pred])
+
+print(''.join(ls))
+```
+The output printed in idle is -: <br/>
+
+![image](https://user-images.githubusercontent.com/60650532/126060779-b486ff6d-84c1-46d9-a1fe-1b1b470b6643.png)
+
+<br/>
+
+   
    
 
 
