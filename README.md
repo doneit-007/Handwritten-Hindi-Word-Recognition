@@ -193,7 +193,14 @@ Appended charcaters for the above example-:<br/>
 
 <br/>
 
-
+## Task4- Building Image Classifier using CNN Model
+Now as said earlier we will be having a trained model which will take character image as input and predcit the corrosponding mapping to that character.
+This model is based on Convolution Neural Network whhich we trained on the [dataset](https://archive.ics.uci.edu/ml/machine-learning-databases/00389/DevanagariHandwrittenCharacterDataset.zip).<br/>
+We removed some of characters from the data which are similar to each other and the model is mispredicting them.<br/>
+The allowed characters are mentioned [here]()
+<br/>
+   ### Model Architecure
+   
 
 
 
