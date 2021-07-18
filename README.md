@@ -1,4 +1,4 @@
-# Hnadwritten-Hindi-Word-Recognition
+# Handwritten-Hindi-Word-Recognition
 The aim of the project is to recognize single handwritten hindi word .
 
 ## RAW IMAGE
