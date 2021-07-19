@@ -199,7 +199,7 @@ This model is based on Convolution Neural Network which we trained on this [data
 We removed some of characters from the data which are similar to each other and the model is mispredicting them.<br/>
 The allowed characters are mentioned [here](https://github.com/doneit-007/Hnadwritten-Hindi-Word-Recognition/blob/main/character.txt)
 <br/>
-Model Architecure and training can be found here  [colab file](https://colab.research.google.com/drive/1j0BMhif01VdqMjqI3SZxK95h5l8bu3zl?usp=sharing)
+Model Architecure and training can be found here  [notebook](https://github.com/doneit-007/Hnadwritten-Hindi-Word-Recognition/blob/main/model_making.ipynb)
 <br/>
 Loss Curve <br/>
 ![image](https://user-images.githubusercontent.com/60650532/126060466-0b87f6cc-46a7-419a-9e7b-ed7f2f179dae.png)
